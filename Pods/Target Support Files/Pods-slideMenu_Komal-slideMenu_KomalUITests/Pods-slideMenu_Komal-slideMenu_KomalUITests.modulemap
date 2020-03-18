@@ -1,0 +1,6 @@
+framework module Pods_slideMenu_Komal_slideMenu_KomalUITests {
+  umbrella header "Pods-slideMenu_Komal-slideMenu_KomalUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

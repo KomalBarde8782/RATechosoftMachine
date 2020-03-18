@@ -3,19 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1843FE14FEF78FC0DC574CD5 /* Pods_slideMenu_KomalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B934107974B69E9E5940390 /* Pods_slideMenu_KomalTests.framework */; };
+		4B7D872F24079D5800A0D2CB /* allMatchesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D872E24079D5800A0D2CB /* allMatchesProtocol.swift */; };
+		4B7D873324079E3800A0D2CB /* AllMachesAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D873224079E3800A0D2CB /* AllMachesAPIManager.swift */; };
+		4B7D87552407C5F800A0D2CB /* AllMatchesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D87532407C5F800A0D2CB /* AllMatchesTableViewCell.swift */; };
+		4B7D87562407C5F800A0D2CB /* AllMatchesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B7D87542407C5F800A0D2CB /* AllMatchesTableViewCell.xib */; };
 		4B9606E7240644090021D71F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9606E6240644090021D71F /* AppDelegate.swift */; };
 		4B9606E9240644090021D71F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9606E8240644090021D71F /* SceneDelegate.swift */; };
-		4B9606EB240644090021D71F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9606EA240644090021D71F /* ViewController.swift */; };
 		4B9606EE240644090021D71F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9606EC240644090021D71F /* Main.storyboard */; };
 		4B9606F1240644090021D71F /* slideMenu_Komal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B9606EF240644090021D71F /* slideMenu_Komal.xcdatamodeld */; };
 		4B9606F32406440D0021D71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B9606F22406440D0021D71F /* Assets.xcassets */; };
 		4B9606F62406440D0021D71F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9606F42406440D0021D71F /* LaunchScreen.storyboard */; };
 		4B9607012406440E0021D71F /* slideMenu_KomalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9607002406440E0021D71F /* slideMenu_KomalTests.swift */; };
 		4B96070C2406440E0021D71F /* slideMenu_KomalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B96070B2406440E0021D71F /* slideMenu_KomalUITests.swift */; };
+		4B96071C240644820021D71F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B96071B240644820021D71F /* MainViewController.swift */; };
+		4B96071E240644940021D71F /* AllMatchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B96071D240644940021D71F /* AllMatchesViewController.swift */; };
+		4B960720240644A30021D71F /* SavedMatchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B96071F240644A30021D71F /* SavedMatchesViewController.swift */; };
+		4B960722240646330021D71F /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B960721240646330021D71F /* LeftViewController.swift */; };
+		4B960744240675750021D71F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B960742240675750021D71F /* SWRevealViewController.m */; };
+		61D0D14929D8967C69D3006C /* Pods_slideMenu_Komal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018E8A0DCE550379DA197307 /* Pods_slideMenu_Komal.framework */; };
+		DE778720ED7B3ADFFC66576C /* Pods_slideMenu_Komal_slideMenu_KomalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01111880FFA8A4DBA3A7EC9C /* Pods_slideMenu_Komal_slideMenu_KomalUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01111880FFA8A4DBA3A7EC9C /* Pods_slideMenu_Komal_slideMenu_KomalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_slideMenu_Komal_slideMenu_KomalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		018E8A0DCE550379DA197307 /* Pods_slideMenu_Komal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_slideMenu_Komal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B7D872E24079D5800A0D2CB /* allMatchesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allMatchesProtocol.swift; sourceTree = "<group>"; };
+		4B7D873224079E3800A0D2CB /* AllMachesAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMachesAPIManager.swift; sourceTree = "<group>"; };
+		4B7D87532407C5F800A0D2CB /* AllMatchesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMatchesTableViewCell.swift; sourceTree = "<group>"; };
+		4B7D87542407C5F800A0D2CB /* AllMatchesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllMatchesTableViewCell.xib; sourceTree = "<group>"; };
 		4B9606E3240644090021D71F /* slideMenu_Komal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slideMenu_Komal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B9606E6240644090021D71F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B9606E8240644090021D71F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4B9606EA240644090021D71F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4B9606ED240644090021D71F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B9606F0240644090021D71F /* slideMenu_Komal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = slideMenu_Komal.xcdatamodel; sourceTree = "<group>"; };
 		4B9606F22406440D0021D71F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +67,20 @@
 		4B9607072406440E0021D71F /* slideMenu_KomalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slideMenu_KomalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B96070B2406440E0021D71F /* slideMenu_KomalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slideMenu_KomalUITests.swift; sourceTree = "<group>"; };
 		4B96070D2406440E0021D71F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B96071B240644820021D71F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4B96071D240644940021D71F /* AllMatchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMatchesViewController.swift; sourceTree = "<group>"; };
+		4B96071F240644A30021D71F /* SavedMatchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedMatchesViewController.swift; sourceTree = "<group>"; };
+		4B960721240646330021D71F /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		4B960741240675740021D71F /* slideMenu_Komal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "slideMenu_Komal-Bridging-Header.h"; sourceTree = "<group>"; };
+		4B960742240675750021D71F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		4B960743240675750021D71F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		540A46FA27CCC1A287552CB8 /* Pods-slideMenu_Komal-slideMenu_KomalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slideMenu_Komal-slideMenu_KomalUITests.release.xcconfig"; path = "Target Support Files/Pods-slideMenu_Komal-slideMenu_KomalUITests/Pods-slideMenu_Komal-slideMenu_KomalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5474541EB5E7AE591E42BA07 /* Pods-slideMenu_KomalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slideMenu_KomalTests.debug.xcconfig"; path = "Target Support Files/Pods-slideMenu_KomalTests/Pods-slideMenu_KomalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C20EBE2FAF2AF9B53587459 /* Pods-slideMenu_Komal-slideMenu_KomalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slideMenu_Komal-slideMenu_KomalUITests.debug.xcconfig"; path = "Target Support Files/Pods-slideMenu_Komal-slideMenu_KomalUITests/Pods-slideMenu_Komal-slideMenu_KomalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B68E774F1A93903BDCDC234 /* Pods-slideMenu_Komal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slideMenu_Komal.release.xcconfig"; path = "Target Support Files/Pods-slideMenu_Komal/Pods-slideMenu_Komal.release.xcconfig"; sourceTree = "<group>"; };
+		7B934107974B69E9E5940390 /* Pods_slideMenu_KomalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_slideMenu_KomalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA042E413120B8C3CDF3BE49 /* Pods-slideMenu_Komal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slideMenu_Komal.debug.xcconfig"; path = "Target Support Files/Pods-slideMenu_Komal/Pods-slideMenu_Komal.debug.xcconfig"; sourceTree = "<group>"; };
+		FFFE38D3410B89112AF2B066 /* Pods-slideMenu_KomalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slideMenu_KomalTests.release.xcconfig"; path = "Target Support Files/Pods-slideMenu_KomalTests/Pods-slideMenu_KomalTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61D0D14929D8967C69D3006C /* Pods_slideMenu_Komal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1843FE14FEF78FC0DC574CD5 /* Pods_slideMenu_KomalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +104,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE778720ED7B3ADFFC66576C /* Pods_slideMenu_Komal_slideMenu_KomalUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B3F8816F346A14DA2C558D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA042E413120B8C3CDF3BE49 /* Pods-slideMenu_Komal.debug.xcconfig */,
+				6B68E774F1A93903BDCDC234 /* Pods-slideMenu_Komal.release.xcconfig */,
+				5C20EBE2FAF2AF9B53587459 /* Pods-slideMenu_Komal-slideMenu_KomalUITests.debug.xcconfig */,
+				540A46FA27CCC1A287552CB8 /* Pods-slideMenu_Komal-slideMenu_KomalUITests.release.xcconfig */,
+				5474541EB5E7AE591E42BA07 /* Pods-slideMenu_KomalTests.debug.xcconfig */,
+				FFFE38D3410B89112AF2B066 /* Pods-slideMenu_KomalTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4B9606DA240644090021D71F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +131,8 @@
 				4B9606FF2406440E0021D71F /* slideMenu_KomalTests */,
 				4B96070A2406440E0021D71F /* slideMenu_KomalUITests */,
 				4B9606E4240644090021D71F /* Products */,
+				1B3F8816F346A14DA2C558D1 /* Pods */,
+				EC29044E07CBC6D275FDF4AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +151,22 @@
 			children = (
 				4B9606E6240644090021D71F /* AppDelegate.swift */,
 				4B9606E8240644090021D71F /* SceneDelegate.swift */,
-				4B9606EA240644090021D71F /* ViewController.swift */,
+				4B960743240675750021D71F /* SWRevealViewController.h */,
+				4B960742240675750021D71F /* SWRevealViewController.m */,
+				4B96071B240644820021D71F /* MainViewController.swift */,
+				4B960721240646330021D71F /* LeftViewController.swift */,
+				4B96071D240644940021D71F /* AllMatchesViewController.swift */,
+				4B7D872E24079D5800A0D2CB /* allMatchesProtocol.swift */,
+				4B7D873224079E3800A0D2CB /* AllMachesAPIManager.swift */,
+				4B96071F240644A30021D71F /* SavedMatchesViewController.swift */,
+				4B7D87532407C5F800A0D2CB /* AllMatchesTableViewCell.swift */,
+				4B7D87542407C5F800A0D2CB /* AllMatchesTableViewCell.xib */,
 				4B9606EC240644090021D71F /* Main.storyboard */,
 				4B9606F22406440D0021D71F /* Assets.xcassets */,
 				4B9606F42406440D0021D71F /* LaunchScreen.storyboard */,
 				4B9606F72406440D0021D71F /* Info.plist */,
 				4B9606EF240644090021D71F /* slideMenu_Komal.xcdatamodeld */,
+				4B960741240675740021D71F /* slideMenu_Komal-Bridging-Header.h */,
 			);
 			path = slideMenu_Komal;
 			sourceTree = "<group>";
@@ -131,6 +189,16 @@
 			path = slideMenu_KomalUITests;
 			sourceTree = "<group>";
 		};
+		EC29044E07CBC6D275FDF4AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				018E8A0DCE550379DA197307 /* Pods_slideMenu_Komal.framework */,
+				01111880FFA8A4DBA3A7EC9C /* Pods_slideMenu_Komal_slideMenu_KomalUITests.framework */,
+				7B934107974B69E9E5940390 /* Pods_slideMenu_KomalTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B9607102406440E0021D71F /* Build configuration list for PBXNativeTarget "slideMenu_Komal" */;
 			buildPhases = (
+				54A049F84F2D183CC8F46F3C /* [CP] Check Pods Manifest.lock */,
 				4B9606DF240644090021D71F /* Sources */,
 				4B9606E0240644090021D71F /* Frameworks */,
 				4B9606E1240644090021D71F /* Resources */,
+				835FA2E595F1F08563514C80 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B9607132406440E0021D71F /* Build configuration list for PBXNativeTarget "slideMenu_KomalTests" */;
 			buildPhases = (
+				F85BCD2A494C2A5FBFE6B4B7 /* [CP] Check Pods Manifest.lock */,
 				4B9606F82406440E0021D71F /* Sources */,
 				4B9606F92406440E0021D71F /* Frameworks */,
 				4B9606FA2406440E0021D71F /* Resources */,
@@ -173,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B9607162406440E0021D71F /* Build configuration list for PBXNativeTarget "slideMenu_KomalUITests" */;
 			buildPhases = (
+				0E81082169813FAD0F695C80 /* [CP] Check Pods Manifest.lock */,
 				4B9607032406440E0021D71F /* Sources */,
 				4B9607042406440E0021D71F /* Frameworks */,
 				4B9607052406440E0021D71F /* Resources */,
+				18C544FFF6B3A3E063373E2A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,6 +272,7 @@
 				TargetAttributes = {
 					4B9606E2240644090021D71F = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 					4B9606FB2406440E0021D71F = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -236,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B9606F62406440D0021D71F /* LaunchScreen.storyboard in Resources */,
+				4B7D87562407C5F800A0D2CB /* AllMatchesTableViewCell.xib in Resources */,
 				4B9606F32406440D0021D71F /* Assets.xcassets in Resources */,
 				4B9606EE240644090021D71F /* Main.storyboard in Resources */,
 			);
@@ -257,15 +332,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E81082169813FAD0F695C80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-slideMenu_Komal-slideMenu_KomalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18C544FFF6B3A3E063373E2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-slideMenu_Komal-slideMenu_KomalUITests/Pods-slideMenu_Komal-slideMenu_KomalUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-slideMenu_Komal-slideMenu_KomalUITests/Pods-slideMenu_Komal-slideMenu_KomalUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-slideMenu_Komal-slideMenu_KomalUITests/Pods-slideMenu_Komal-slideMenu_KomalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54A049F84F2D183CC8F46F3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-slideMenu_Komal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		835FA2E595F1F08563514C80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-slideMenu_Komal/Pods-slideMenu_Komal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-slideMenu_Komal/Pods-slideMenu_Komal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-slideMenu_Komal/Pods-slideMenu_Komal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F85BCD2A494C2A5FBFE6B4B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-slideMenu_KomalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4B9606DF240644090021D71F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B9606EB240644090021D71F /* ViewController.swift in Sources */,
+				4B960720240644A30021D71F /* SavedMatchesViewController.swift in Sources */,
+				4B7D872F24079D5800A0D2CB /* allMatchesProtocol.swift in Sources */,
 				4B9606F1240644090021D71F /* slideMenu_Komal.xcdatamodeld in Sources */,
+				4B7D873324079E3800A0D2CB /* AllMachesAPIManager.swift in Sources */,
 				4B9606E7240644090021D71F /* AppDelegate.swift in Sources */,
+				4B960744240675750021D71F /* SWRevealViewController.m in Sources */,
+				4B96071E240644940021D71F /* AllMatchesViewController.swift in Sources */,
 				4B9606E9240644090021D71F /* SceneDelegate.swift in Sources */,
+				4B960722240646330021D71F /* LeftViewController.swift in Sources */,
+				4B7D87552407C5F800A0D2CB /* AllMatchesTableViewCell.swift in Sources */,
+				4B96071C240644820021D71F /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,8 +621,10 @@
 		};
 		4B9607112406440E0021D71F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA042E413120B8C3CDF3BE49 /* Pods-slideMenu_Komal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = slideMenu_Komal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -446,6 +633,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vibeosys.com.slideMenu-Komal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "slideMenu_Komal/slideMenu_Komal-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -453,8 +642,10 @@
 		};
 		4B9607122406440E0021D71F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B68E774F1A93903BDCDC234 /* Pods-slideMenu_Komal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = slideMenu_Komal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -463,6 +654,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vibeosys.com.slideMenu-Komal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "slideMenu_Komal/slideMenu_Komal-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -470,6 +662,7 @@
 		};
 		4B9607142406440E0021D71F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5474541EB5E7AE591E42BA07 /* Pods-slideMenu_KomalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +684,7 @@
 		};
 		4B9607152406440E0021D71F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFFE38D3410B89112AF2B066 /* Pods-slideMenu_KomalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +706,7 @@
 		};
 		4B9607172406440E0021D71F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C20EBE2FAF2AF9B53587459 /* Pods-slideMenu_Komal-slideMenu_KomalUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +726,7 @@
 		};
 		4B9607182406440E0021D71F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540A46FA27CCC1A287552CB8 /* Pods-slideMenu_Komal-slideMenu_KomalUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
